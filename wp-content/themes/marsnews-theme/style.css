@@ -1,0 +1,201 @@
+/*
+Theme Name: marsnews-theme
+Theme URI: http://marsnews.com/
+Author: James Burk
+Author URI: http://jamesburk.com/
+Description: A devdmbootstrap3 v1.60 child theme.
+Version: 1.60
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, fluid-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, rtl-language-support, theme-options, translation-ready
+Text Domain: marsnews-theme
+Template: devdmbootstrap3
+*/
+
+@import "css/bootstrap.css";
+
+.site-title {
+	padding:0;
+	margin-left:0;
+}
+
+a,
+a:link,
+a:visited {
+	color: #cb2805;
+}
+
+a:hover {
+	color: black;
+}
+
+.navbar-toggle {
+	margin-left:5px;
+	float:left;
+}
+
+.navbar-header {
+	background: linear-gradient(#cb2805, black);
+}
+
+.navbar {
+	margin:0;
+	padding:0;
+	border: 1px solid #cb2805;
+	color: white;
+	background: linear-gradient(#cb2805, black); 
+}
+
+.navbar-collapse {
+	background: linear-gradient(#cb2805, black); 
+	border: 0;
+	padding-left:0;
+}
+
+#menu-nav {
+	color: white;
+}
+
+#menu-nav a, a:link {
+	color: white;
+}
+
+#menu-nav a:hover {
+	background: linear-gradient(white,white); 
+	color: black;
+}
+
+#menu-nav > .active > a {
+	background: linear-gradient(black,black); 
+	color:white;
+}
+
+#menu-nav > .active > a:hover {
+	color:#cb2805;
+}
+
+.dropdown-menu {
+	background-color:#cb2805;
+}
+
+.dropdown-menu > .active > a {
+	background-color:#000;
+	background: linear-gradient(black,black);
+}
+
+.dropdown-menu > .active > a:hover {
+	background-color:#fff;
+	background: linear-gradient(white,white);
+}
+
+.header-search-box {
+	margin:3px 0 3px 0;
+	padding-top: 3px;
+}
+
+.post-time {
+	background: linear-gradient(#cb2805, black); 
+	color:#fff;
+	width:100%;
+	margin:0 0 0 0;
+	padding:2px;
+}
+
+.post {
+	border:1px solid #cb2805;
+	margin:10px 0 20px 0;
+}
+
+h2 {
+	margin-top:5px;
+	padding:5px;
+}
+
+.post-content-inside {
+	padding:10px;
+}
+
+.post-tags {
+	padding:0 0 5px 10px;
+	margin:0;
+}
+
+.posts-nav-link {
+	margin-bottom: 10px;
+}
+
+.media-outlet-image {
+	font-family:verdana,arial,helvetica,sans-serif;
+	font-size:10pt;
+	color:#000;
+}
+
+.media-outlet {
+	font-family:verdana,arial,helvetica,sans-serif;
+	font-size:10pt;
+	color:#000;
+}
+
+#sidebar-right a, a:link, a:visited {
+	color: #cb2805;
+}
+
+#sidebar-right a:hover {
+	color: black;
+}
+
+.footer-left {
+	background:#f0f0f0;
+	margin: 0px -15px 15px -15px;
+	padding: 5px;
+	border:0;
+	font-size:9pt;
+	font-family:verdana,arial,helvetica,sans-serif;
+}
+
+/****************** Special Blank CSS classes for child themes to use without disturbing core bootstrap rules ****************/
+
+.dmbs-container {
+
+}
+
+.page-header h2 {
+	margin:0px;
+}
+
+.dmbs-header {
+}
+
+.dmbs-header-img {
+
+}
+
+.dmbs-header-text {
+
+}
+
+.dmbs-top-menu {
+
+}
+
+.dmbs-content {
+	background-color: white;
+}
+
+.dmbs-main {
+	background:#fff;
+}
+
+.dmbs-left {
+
+}
+
+.dmbs-right {
+	float:right;
+}
+
+.dmbs-footer {
+	border-top:1px solid #000;
+	margin:0;
+	padding:0;
+}
