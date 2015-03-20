@@ -184,6 +184,8 @@ h2 {
 
 .dmbs-main {
 	background:#fff;
+	margin-right:0px;
+	padding-right:0px;
 }
 
 .dmbs-left {
@@ -192,6 +194,14 @@ h2 {
 
 .dmbs-right {
 	float:right;
+	padding-top:7px;
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+	.dmbs-right {
+	margin-left:0;
+	padding-left:0;
+	}
 }
 
 .dmbs-footer {

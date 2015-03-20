@@ -221,13 +221,20 @@ function the_content( $more_link_text = null, $strip_teaser = false) {
 	$content = apply_filters( 'the_content', $content );
 	$content = str_replace( ']]>', ']]&gt;', $content );
 	echo $content;
-      
+    
+    $title = get_the_title();
     $excerpt = get_the_excerpt();
 
 	if (has_excerpt() <> "") {
-	    echo "[ <span style='font-weight:bold;margin:10px 0 10px 0;'> <a href=\"";
-    	echo $excerpt;
-    	echo "\">Full Story</a></span> ]";
+//	    echo "<div>[ <span style='font-weight:bold;margin:10px 0 10px 0;'> <a href=\"";
+//    	echo $excerpt;
+//    	echo "\">Full Story</a></span> ]</div>";
+
+		echo "<div style=\"margin:5px 0 5px 0\"><form action=\"$excerpt\"><button class=\"button btn-danger\" style=\"padding:0 10px 0 10px;\" />Full Story</button></form></div>";
+		echo do_shortcode("[twitter_share text='$title']");
+//		echo "<div style=\"overflow:visible;\">";
+//			echo do_shortcode("[facebook_send_button]");
+//		echo "</div>";
 	}
 }
 
