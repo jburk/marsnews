@@ -11004,7 +11004,7 @@ class Google_Service_Analytics_WebpropertyParentLink extends Google_Model
 class Google_Service_Analytics_WebpropertyPermissions extends Google_Collection
 {
   protected $collection_key = 'effective';
-  protected $internal_gapi_mappings = array();
+  protected $internal_gapi_mappings = array();
   public $effective;
 
   public function setEffective($effective)

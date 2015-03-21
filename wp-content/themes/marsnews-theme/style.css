@@ -14,6 +14,12 @@ Template: devdmbootstrap3
 
 @import "css/bootstrap.css";
 
+#text-2 { text-align:left;padding:0;margin-left:-2px;width:165px; }
+.textwidget { text-align:left;padding:0;margin-left:-2px;width:165px; }
+.marsfound { text-align:left;padding:0;margin-left:1px; }
+
+.fb-like iframe { max-width: inherit; }
+
 .site-title {
 	padding:0;
 	margin-left:0;

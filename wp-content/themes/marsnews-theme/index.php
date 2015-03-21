@@ -78,6 +78,7 @@ $url = "http://www.marsnews.com/images/media";
 			    <div class="post-time">
 	                            <?php the_time('F jS, Y'); ?>
 			    </div>  
+<article><div class="article">
                           <h2>
                                 <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'devdmbootstrap3' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>  
 <?php
@@ -118,7 +119,7 @@ $url = "http://www.marsnews.com/images/media";
                        </div>
 
                      <?php  endif; ?>
-
+</div></article>
                 <?php endwhile; ?>
 <div class="posts-nav-link">
                 <?php posts_nav_link(); ?>
@@ -128,7 +129,6 @@ $url = "http://www.marsnews.com/images/media";
                     <?php get_404_template(); ?>
 
             <?php endif; ?>
-
    </div>
 
    <?php //get the right sidebar ?>
