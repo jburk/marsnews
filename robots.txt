@@ -1,2 +1,5 @@
-User-agent: *
-Disallow: /
+User-Agent: *
+Disallow: /wp-admin
+Allow: /
+
+Sitemap: http://marsnews.com/sitemap_index.xml

@@ -7,10 +7,10 @@
     <div class="row dmbs-header">
 	<div class="col-md-6 site-title">
 		<div class="visible-md visible-xs">
-			<a href="/"><img src="/images/marsnews-logo-2015.png" border="0" style="float:left;"></a>
+			<a href="/"><img src="/images/marsnews-logo-2015.png" alt="MarsNews.com" style="float:left;"></a>
 		</div>
 		<div class="hidden-md hidden-xs">
-			<a href="/"><img src="/images/marsnews-logo-2015-lg.png" border="0" style="float:left;"></a>
+			<a href="/"><img src="/images/marsnews-logo-2015-lg.png" alt="MarsNews.com" style="float:left;"></a>
 		</div>
 	</div>
  	<div class="col-md-6 page-header-top-right">

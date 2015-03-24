@@ -28,7 +28,7 @@
 
 		<div class="col-md-4 header-search-box">
 		<span class="rss-button" style="float:right;padding-left:10px;">
-			<a href="<?php bloginfo('rss2_url'); ?>"><img src="/images/rss-icon-hi.png" border="0" width="33"></a>
+			<a href="<?php bloginfo('rss2_url'); ?>"><img src="/images/rss-icon-hi.png" alt="RSS" width="33"></a>
 		</span>
 <form role="search" method="get" class="search-form form" action="<?php echo esc_url(home_url('/')); ?>">
 	<label for="form-search-input" class="sr-only"><?php _ex('Search for', 'label', 'bootstrap-basic'); ?></label>
